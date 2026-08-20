@@ -1,0 +1,140 @@
+:root {
+    --blue: #2E4057;
+    --text: #131C26;
+    --background: #FFF7EE;
+    --white: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background);
+    color: var(--text);
+    font-family: Calibri, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--blue);
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+header h1 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+nav {
+    background-color: var(--blue);
+    color: var(--white);
+    text-align: center;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: var(--white);
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+h2,
+h3 {
+    color: var(--blue);
+    font-family: Arial, sans-serif;
+}
+
+.gallery,
+.featured-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.book-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+.book-card img {
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+button {
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+form {
+    max-width: 600px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+footer {
+    background-color: var(--blue);
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    nav li {
+        display: block;
+        margin: 8px;
+    }
+
+    .gallery,
+    .featured-grid {
+        grid-template-columns: 1fr;
+    }
+}

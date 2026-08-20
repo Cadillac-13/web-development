@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Haven Bookstore - About Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" alt="Book Haven Bookstore Logo">
+    <h1>Book Haven Bookstore</h1>
+    <p>Learn More About Us and Get in Touch</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Book Gallery</a></li>
+        <li><a href="about.html">About Us & Contact</a></li>
+        <li><a href="staff-picks.html">Staff Picks</a></li>
+    </ul>
+
+    <p>Shopping Cart Items: <strong id="cart-count">0</strong></p>
+</nav>
+
+<main>
+
+    <section>
+        <h2>About Book Haven Bookstore</h2>
+        <p>
+            Book Haven Bookstore is a local bookstore dedicated to helping
+            customers discover books they will enjoy.
+        </p>
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p><strong>Phone:</strong> (612) 555-0198</p>
+        <p><strong>Email:</strong> contact@bookhavenbookstore.com</p>
+    </section>
+
+    <section>
+        <h2>Customer Feedback</h2>
+
+        <form id="feedbackForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone">
+
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" rows="5" required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Custom Book Order</h2>
+
+        <form id="customOrderForm">
+            <label for="customer-name">Your Name:</label>
+            <input type="text" id="customer-name" required>
+
+            <label for="book-title">Book Title:</label>
+            <input type="text" id="book-title" required>
+
+            <label for="author">Author:</label>
+            <input type="text" id="author">
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" min="1" value="1">
+
+            <label for="order-details">Additional Details:</label>
+            <textarea id="order-details" rows="5"></textarea>
+
+            <button type="submit">Submit Custom Order</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Store Hours</h2>
+
+        <ul>
+            <li>Monday - Friday: 9:00 AM - 8:00 PM</li>
+            <li>Saturday: 10:00 AM - 6:00 PM</li>
+            <li>Sunday: 11:00 AM - 5:00 PM</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Book Haven Bookstore. All rights reserved.</p>
+    <p>Phone: (612) 555-0198 | Email: contact@bookhavenbookstore.com</p>
+    <button type="button" class="subscribeButton">Subscribe</button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

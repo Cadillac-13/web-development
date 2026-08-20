@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Haven Bookstore - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" alt="Book Haven Bookstore Logo">
+    <h1>Book Haven Bookstore</h1>
+    <p>Your Local Place for Great Books and Great Reads</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Book Gallery</a></li>
+        <li><a href="about.html">About Us & Contact</a></li>
+        <li><a href="staff-picks.html">Staff Picks</a></li>
+    </ul>
+
+    <p>Shopping Cart Items: <strong id="cart-count">0</strong></p>
+</nav>
+
+<main>
+
+    <section>
+        <h2>Welcome to Book Haven Bookstore</h2>
+
+        <p>
+            Welcome to Book Haven Bookstore, your destination for discovering
+            great books and finding your next favorite read.
+        </p>
+
+        <p>
+            Whether you enjoy fiction, mystery, fantasy, nonfiction, or
+            children's books, we have something for every type of reader.
+        </p>
+    </section>
+
+    <section>
+        <h2>Featured Books</h2>
+
+        <div class="featured-grid">
+
+            <article class="book-card">
+                <img src="book1.png" alt="The Great Gatsby">
+                <h3>The Great Gatsby</h3>
+                <p>A classic American novel.</p>
+                <p><strong>Price:</strong> $14.99</p>
+                <button type="button" class="addToCartButton">Add to Cart</button>
+            </article>
+
+            <article class="book-card">
+                <img src="book2.png" alt="To Kill a Mockingbird">
+                <h3>To Kill a Mockingbird</h3>
+                <p>A classic story about justice and compassion.</p>
+                <p><strong>Price:</strong> $12.50</p>
+                <button type="button" class="addToCartButton">Add to Cart</button>
+            </article>
+
+            <article class="book-card">
+                <img src="book3.png" alt="1984">
+                <h3>1984</h3>
+                <p>A thought-provoking dystopian classic.</p>
+                <p><strong>Price:</strong> $11.99</p>
+                <button type="button" class="addToCartButton">Add to Cart</button>
+            </article>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Browse Our Categories</h2>
+
+        <ul>
+            <li>Fiction</li>
+            <li>Mystery</li>
+            <li>Fantasy</li>
+            <li>Nonfiction</li>
+            <li>Children's Books</li>
+            <li>Young Adult</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Join Our Newsletter</h2>
+
+        <form id="newsletterForm">
+            <label for="newsletter-email">Email Address:</label>
+            <input type="email" id="newsletter-email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Book Haven Bookstore. All rights reserved.</p>
+    <p>Phone: (612) 555-0198 | Email: contact@bookhavenbookstore.com</p>
+    <button type="button" class="subscribeButton">Subscribe</button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

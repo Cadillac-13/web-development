@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Haven Bookstore - Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" alt="Book Haven Bookstore Logo">
+    <h1>Book Haven Bookstore</h1>
+    <p>Explore Our Collection</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Book Gallery</a></li>
+        <li><a href="about.html">About Us & Contact</a></li>
+        <li><a href="staff-picks.html">Staff Picks</a></li>
+    </ul>
+
+    <p>Shopping Cart Items: <strong id="cart-count">0</strong></p>
+</nav>
+
+<main>
+
+    <section>
+        <h2>Our Books</h2>
+
+        <div class="gallery">
+
+            <article class="book-card">
+                <img src="book1.png" alt="The Great Gatsby">
+                <h3>The Great Gatsby</h3>
+                <p>A classic American novel.</p>
+                <p><strong>Price:</strong> $14.99</p>
+                <button type="button" class="addToCartButton">Add to Cart</button>
+            </article>
+
+            <article class="book-card">
+                <img src="book2.png" alt="To Kill a Mockingbird">
+                <h3>To Kill a Mockingbird</h3>
+                <p>A classic story about justice and compassion.</p>
+                <p><strong>Price:</strong> $12.50</p>
+                <button type="button" class="addToCartButton">Add to Cart</button>
+            </article>
+
+            <article class="book-card">
+                <img src="book3.png" alt="1984">
+                <h3>1984</h3>
+                <p>A thought-provoking dystopian classic.</p>
+                <p><strong>Price:</strong> $11.99</p>
+                <button type="button" class="addToCartButton">Add to Cart</button>
+            </article>
+
+            <article class="book-card">
+                <img src="book4.png" alt="Featured Book 4">
+                <h3>Featured Book 4</h3>
+                <p>Discover another great selection from Book Haven.</p>
+                <p><strong>Price:</strong> $15.99</p>
+                <button type="button" class="addToCartButton">Add to Cart</button>
+            </article>
+
+            <article class="book-card">
+                <img src="book5.png" alt="Featured Book 5">
+                <h3>Featured Book 5</h3>
+                <p>Find your next favorite book.</p>
+                <p><strong>Price:</strong> $16.99</p>
+                <button type="button" class="addToCartButton">Add to Cart</button>
+            </article>
+
+            <article class="book-card">
+                <img src="book6.png" alt="Featured Book 6">
+                <h3>Featured Book 6</h3>
+                <p>A great addition to any book collection.</p>
+                <p><strong>Price:</strong> $13.99</p>
+                <button type="button" class="addToCartButton">Add to Cart</button>
+            </article>
+
+            <article class="book-card">
+                <img src="book7.png" alt="Featured Book 7">
+                <h3>Featured Book 7</h3>
+                <p>Explore another popular title.</p>
+                <p><strong>Price:</strong> $17.99</p>
+                <button type="button" class="addToCartButton">Add to Cart</button>
+            </article>
+
+            <article class="book-card">
+                <img src="book8.png" alt="Featured Book 8">
+                <h3>Featured Book 8</h3>
+                <p>A great choice for book lovers.</p>
+                <p><strong>Price:</strong> $18.99</p>
+                <button type="button" class="addToCartButton">Add to Cart</button>
+            </article>
+
+            <article class="book-card">
+                <img src="book9.png" alt="Featured Book 9">
+                <h3>Featured Book 9</h3>
+                <p>Discover something new to read.</p>
+                <p><strong>Price:</strong> $10.99</p>
+                <button type="button" class="addToCartButton">Add to Cart</button>
+            </article>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Shopping Cart</h2>
+
+        <p>Items in Cart: <strong id="gallery-cart-count">0</strong></p>
+
+        <button type="button" id="viewCartButton">View Cart</button>
+        <button type="button" id="clearCartButton">Clear Cart</button>
+        <button type="button" id="processOrderButton">Process Order</button>
+    </section>
+
+    <section id="cartModal" hidden>
+        <h2>Your Shopping Cart</h2>
+
+        <div id="cartItems"></div>
+
+        <button type="button" id="modalClearCartButton">Clear Cart</button>
+        <button type="button" id="modalProcessOrderButton">Process Order</button>
+        <button type="button" id="closeCartButton">Close</button>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Book Haven Bookstore. All rights reserved.</p>
+    <p>Phone: (612) 555-0198 | Email: contact@bookhavenbookstore.com</p>
+    <button type="button" class="subscribeButton">Subscribe</button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
